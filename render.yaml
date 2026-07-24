@@ -4,7 +4,7 @@
 
 services:
   - type: web
-    name: l2EssencePowerPrism-api
+    name: l2essencepowerprism-api
     runtime: node
     rootDir: backend
     buildCommand: npm install
@@ -37,7 +37,7 @@ services:
         value: disabled
 
   - type: web
-    name: L2EssencePowerPrism
+    name: l2essencepowerprism
     runtime: static
     rootDir: frontend
     buildCommand: npm install && npm run build
