@@ -42,7 +42,7 @@
         <div class="hero__visual">
           <div class="hero__frame"></div>
           <img
-            src="/placeholder-hero.svg"
+            src="/hero-animated.png"
             alt="Fantasy warrior placeholder — replace with your own art"
             class="hero__character"
           />

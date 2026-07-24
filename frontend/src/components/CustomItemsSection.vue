@@ -83,6 +83,7 @@ const highlights = [
 
 const showcaseItems = [
   { tier: 'Elite', name: 'Arcana', effect: 'Increase further more M.Atk depending of your Casting Speed' },
+  { tier: 'Elite', name: 'The Sky Without Stars', effect: 'On-skilluse increase damage and reduce Mp cost' },
   { tier: 'Rare', name: 'Silkweave', effect: 'Gain Mana whenever you kill an ennemy' },
   { tier: 'Normal', name: 'Frostburn', effect: 'Slow down your target and reduce his damages' },
 ];
