@@ -9,15 +9,15 @@ export const mockStats = {
   maxLevelCount: 23,
   serverStatus: 'online',
   rates: {
-    xp: Number(process.env.XP_RATE) || 50,
-    sp: Number(process.env.SP_RATE) || 50,
+    xp: Number(process.env.XP_RATE) || 40,
+    sp: Number(process.env.SP_RATE) || 10,
     adena: Number(process.env.ADENA_RATE) || 10,
-    drop: Number(process.env.DROP_RATE) || 5,
+    drop: Number(process.env.DROP_RATE) || 1,
   },
-  serverName: process.env.SERVER_NAME || 'L2 Essence Private Server',
+  serverName: process.env.SERVER_NAME || 'Power Prism',
   links: {
-    discord: process.env.DISCORD_URL || 'https://discord.gg/your-server',
-    download: process.env.DOWNLOAD_URL || '#',
+    discord: process.env.DISCORD_URL || 'https://discord.gg/CXzPceuHt',
+    download: process.env.DOWNLOAD_URL || 'https://e.pcloud.link/publink/show?code=XZSxToZv8aD7dW5g1zpvU6gv9jlMy29K2zy',
     register: process.env.REGISTER_URL || '#',
   },
   topPlayers: [
