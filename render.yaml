@@ -39,6 +39,8 @@ services:
         sync: false
       - key: VITE_DOWNLOAD_URL
         sync: false
+      - key: VITE_API_URL
+        sync: false
 
   - type: web
     name: l2essencepowerprism
@@ -46,6 +48,3 @@ services:
     rootDir: frontend
     buildCommand: npm install && npm run build
     staticPublishPath: dist
-    envVars:
-      - key: VITE_API_URL
-        sync: false
