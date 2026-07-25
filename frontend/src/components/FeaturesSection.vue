@@ -31,7 +31,7 @@ const features = [
   {
     icon: '⚡',
     title: 'Balanced Rates',
-    description: 'Custom XP, SP, Adena, and Drop rates tuned for fast progression without breaking the economy.',
+    description: 'Custom XP, SP, Adena, and Drop table tuned for fast progression without breaking the economy.',
   },
   {
     icon: '🏰',
@@ -46,7 +46,7 @@ const features = [
   {
     icon: '🎮',
     title: 'Essence Content',
-    description: 'L2J Mobius Essence 09.1 Warg — latest classes, zones, and endgame systems.',
+    description: 'Lineage 2 Essence 09.1 Warg — latest classes, zones, and endgame systems.',
   },
   {
     icon: '💬',
@@ -56,7 +56,7 @@ const features = [
   {
     icon: '🔄',
     title: 'Regular Updates',
-    description: 'Frequent fixes and content pulled from the Mobius development branch.',
+    description: 'Frequent fixes, new system and items are constantly added.',
   },
 ];
 </script>
