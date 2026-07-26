@@ -49,7 +49,7 @@ const defaultStats = {
   maxLevelCount: 0,
   serverStatus: 'online',
   rates: { xp: 50, sp: 50, adena: 10, drop: 5 },
-  serverName: 'L2 Essence Private Server',
+  serverName: 'Power Prism',
   links: { discord: '#', download: '#', register: '#' },
   topPlayers: [],
   nextSiege: null,
