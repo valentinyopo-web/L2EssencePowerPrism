@@ -8,7 +8,7 @@ export default defineConfig({
     // Proxy API calls to Express during local development
     proxy: {
       '/api': {
-        target: 'https://l2essencepowerprism/api/:10000',
+        target: 'https://l2essencepowerprism-api:10000',
         changeOrigin: true,
       },
     },
