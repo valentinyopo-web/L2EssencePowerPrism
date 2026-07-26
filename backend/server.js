@@ -15,7 +15,7 @@ const PORT = process.env.PORT || 3001;
 // CORS for local Vue dev server (Vite default: http://localhost:5173)
 app.use(
   cors({
-    origin: ['http://localhost:5173', 'http://127.0.0.1:5173'],
+    origin: process.env.CORS_ORIGIN || ['http://localhost:5173', 'http://127.0.0.1:5173'],
     methods: ['GET'],
   })
 );
@@ -43,6 +43,7 @@ async function start() {
 
   app.listen(PORT, () => {
     console.log(`[API] Server running at http://localhost:${PORT}`);
+    console.log(`[Server] CORS origin: ${process.env.CORS_ORIGIN || 'http://localhost:5173'}`);
   });
 }
 
