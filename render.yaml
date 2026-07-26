@@ -33,8 +33,11 @@ services:
         value: "10"
       - key: DROP_RATE
         value: "1"
-      - key: DUALBOX
-        value: disabled
+      - key: DISCORD_URL
+        sync: false
+      - key: DOWNLOAD_URL
+        sync: false
+        
 
   - type: web
     name: l2essencepowerprism
@@ -44,8 +47,4 @@ services:
     staticPublishPath: dist
     envVars:
       - key: VITE_API_URL
-        sync: false
-      - key: VITE_DISCORD_URL
-        sync: false
-      - key: VITE_DOWNLOAD_URL
         sync: false
