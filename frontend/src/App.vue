@@ -62,8 +62,8 @@ const castles = ref([]);
 async function loadData() {
   try {
     const [statsData, castleData] = await Promise.all([
-      fetchApi('/api/stats'),
-      fetchApi('/api/castles'),
+      fetchApi('https://l2essencepowerprism-api.onrender.com/api/stats'),
+      fetchApi('https://l2essencepowerprism-api.onrender.com/api/stats'),
     ]);
 
     stats.value = statsData;
