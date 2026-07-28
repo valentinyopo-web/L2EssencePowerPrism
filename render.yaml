@@ -1,6 +1,7 @@
 # Render Blueprint — deploy API + static frontend from one repo.
 # Dashboard → New → Blueprint → connect this repository.
 # Set secret env vars (DB_*, CORS_ORIGIN, VITE_API_URL) when prompted.
+# Classic DB_PORT is = 3306.
 
 services:
   - type: web
@@ -16,7 +17,7 @@ services:
       - key: DB_HOST
         sync: false
       - key: DB_PORT
-        value: "3306"
+        sync: false
       - key: DB_USER
         sync: false
       - key: DB_PASSWORD
