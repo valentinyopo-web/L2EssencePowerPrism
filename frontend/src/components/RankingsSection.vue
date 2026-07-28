@@ -1,12 +1,14 @@
 <template>
   <section id="rankings" class="rankings">
-    <div class="container">
+   <div class="container">
+    <div class="rankings__header">
       <span class="section-eyebrow">Leaderboard</span>
       <h2 class="section-title">Top Players</h2>
       <div class="section-divider"></div>
       <p class="section-subtitle">
-        The strongest warriors ranked by level and PvP performance
+        The strongest players ranked by level and PvP performance
       </p>
+    </div>
 
       <div class="rankings__panel card card--lavender">
         <div class="rankings__panel-header">
@@ -72,6 +74,11 @@ defineProps({
 .rankings__panel {
   padding: 0;
   overflow: hidden;
+}
+
+.rankings__header {
+  text-align: center;
+  margin-bottom: 3rem;
 }
 
 .rankings__panel-header {

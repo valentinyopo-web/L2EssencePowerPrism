@@ -1,12 +1,14 @@
 <template>
   <section id="features" class="features">
-    <div class="container">
+  <div class="container">
+    <div class="features__header">
       <span class="section-eyebrow">Why Play Here</span>
       <h2 class="section-title">Server Features</h2>
       <div class="section-divider"></div>
       <p class="section-subtitle">
         Built for players who want a polished Essence experience
       </p>
+    </div>
 
       <div class="features__grid">
         <article
@@ -70,6 +72,11 @@ const features = [
   display: grid;
   grid-template-columns: repeat(3, 1fr);
   gap: 1.25rem;
+}
+
+.features__header {
+  text-align: center;
+  margin-bottom: 3rem;
 }
 
 .feature-card {

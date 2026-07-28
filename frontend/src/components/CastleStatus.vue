@@ -1,12 +1,14 @@
 <template>
   <section id="castles" class="castles">
-    <div class="container">
+  <div class="container">
+    <div class="castles__header">
       <span class="section-eyebrow">Territory War</span>
       <h2 class="section-title">Castle Ownership</h2>
       <div class="section-divider"></div>
       <p class="section-subtitle">
         Clans fighting for control of Giran and Goddard
       </p>
+    </div>
 
       <div class="castles__grid">
         <article v-for="castle in castles" :key="castle.id" class="castle-card card">
@@ -65,6 +67,11 @@ defineProps({
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
   gap: 1.25rem;
+}
+
+.castles__header {
+  text-align: center;
+  margin-bottom: 3rem;
 }
 
 .castle-card {
